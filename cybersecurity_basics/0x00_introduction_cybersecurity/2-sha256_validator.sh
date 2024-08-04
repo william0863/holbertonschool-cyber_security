@@ -1,2 +1,3 @@
 #!/bin/bash
-sha256sum -c <<<"$(sha256sum $1)"
+sha256sum -c "$1"
+
