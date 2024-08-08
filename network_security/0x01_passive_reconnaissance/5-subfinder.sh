@@ -1,2 +1,2 @@
 #!/bin/bash
-subfinder -d $1
+subfinder -d -nW -silent $1 -d -oI -o $1.txt
