@@ -1,1 +1,1 @@
-(ip.src == 172.23.106.189 and udp.dstport) or (icmp.type == 3 and icmp.code == 3)
+(udp.dstport) or (icmp.type == 3 and icmp.code == 3)
