@@ -1,1 +1,1 @@
-ip.src == 172.23.106.189 and ip.proto == 1 and ip.proto != 6 and ip.proto != 17 and ip.proto != 58
+ip.proto == 1 and ip.proto != 6 and ip.proto != 17 and ip.proto != 58
