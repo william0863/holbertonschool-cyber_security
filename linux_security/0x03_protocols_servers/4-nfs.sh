@@ -1,2 +1,2 @@
 #!/bin/bash
-showmount -e | grep "Everyone"
+showmount -e "$1" | grep "Everyone"
