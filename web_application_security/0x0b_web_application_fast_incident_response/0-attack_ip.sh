@@ -14,6 +14,5 @@ fi
 
 MOST_FREQUENT_IP=$(awk '{print $1}' "$LOG_FILE" | sort | uniq -c | sort -nr | head -n 1)
 
-echo "The IP responsible for the most requests is:"
 echo "$MOST_FREQUENT_IP"
 
