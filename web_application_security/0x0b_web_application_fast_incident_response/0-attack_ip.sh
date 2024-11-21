@@ -1,14 +1,12 @@
 #!/bin/bash
 
 if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 <log_file>"
     exit 1
 fi
 
 LOG_FILE="$1"
 
 if [ ! -f "$LOG_FILE" ]; then
-    echo "Error: File '$LOG_FILE' not found."
     exit 1
 fi
 
