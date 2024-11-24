@@ -1,3 +1,3 @@
 #!/bin/bash
-awk '/Accepted password for root/ {print $11}' auth.log | sort -u | wc -l
+grep "iptables"  auth.log | grep "input" | sort -u | wc -l
 
