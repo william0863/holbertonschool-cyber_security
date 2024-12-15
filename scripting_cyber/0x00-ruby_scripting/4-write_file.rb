@@ -14,5 +14,7 @@ def merge_json_files(file1_path, file2_path)
     file.write(JSON.pretty_generate(merged_json))
     file.write("\n")
   end
+
+  puts 'Merged JSON written to file.json'
 end
 
